@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rutificador</title>
+</head>
+<body>
+    <section class="font-family-main">
+        <h1>Rutificador</h1>
+        <p>El obejtivo de este sitio web es poner en practica la utilizacion de HTML, CSS y JS para la consulta de RUTs chilenos (empresa o persona)</p>
+        <form action="searchRut" id="rutForm">
+            <label for="rut">RUT:</label>  <!-- Label para el input -->  <!-- Input para el RUT -->  <!-- Botón para consultar -->  <!-- Respuesta de la consulta -->  <!-- Mensaje de error -->  <!-- Botón para volver a consultar -->
+            <input type="text" id="rut" name="rut" placeholder="Ingrese RUT" minlength="8" maxlength="12">
+            <button type="submit">Consultar</button>
+        </form>
+    </section>    
+
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
